@@ -824,10 +824,12 @@ const store = new (0, _heropy.Store)({
     searchText: "",
     page: 1,
     pageMax: 1,
-    movies: []
+    movies: [],
+    loading: false
 });
 exports.default = store;
 const searchMovies = async (page)=>{
+    store.state.loading = true;
     store.state.page = page;
     if (page === 1) store.state.movies = [];
     // apikey는 연습용으로만 사용
@@ -838,6 +840,7 @@ const searchMovies = async (page)=>{
         ...Search
     ];
     store.state.pageMax = Math.ceil(Number(totalResults) / 10);
+    store.state.loading = false;
 };
 
 },{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8UDl3":[function(require,module,exports) {
@@ -854,16 +857,22 @@ class MovieList extends (0, _heropy.Component) {
         (0, _movieDefault.default).subscribe("movies", ()=>{
             this.render();
         });
+        (0, _movieDefault.default).subscribe("loading", ()=>{
+            this.render();
+        });
     }
     render() {
         this.el.classList.add("movie-list");
         this.el.innerHTML = /* html */ `
       <div class="movies"></div>
+      <div class="the-loader hide"></div>
     `;
         const moviesEl = this.el.querySelector(".movies");
         moviesEl.append(...(0, _movieDefault.default).state.movies.map((movie)=>new (0, _movieItemDefault.default)({
                 movie
             }).el));
+        const loaderEl = this.el.querySelector(".the-loader");
+        (0, _movieDefault.default).state.loading ? loaderEl.classList.remove("hide") : loaderEl.classList.add("hide");
     }
 }
 exports.default = MovieList;
