@@ -743,7 +743,7 @@ exports.default = (0, _heropy.createRouter)([
     }
 ]);
 
-},{"../core/heropy":"57bZf","./Home":"0JSNG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Movie":"1LTyN"}],"0JSNG":[function(require,module,exports) {
+},{"../core/heropy":"57bZf","./Home":"0JSNG","./Movie":"1LTyN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"0JSNG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("../core/heropy");
@@ -767,7 +767,7 @@ class Home extends (0, _heropy.Component) {
 }
 exports.default = Home;
 
-},{"../core/heropy":"57bZf","../components/Headline":"gaVgo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../components/Search":"jqPPz","../components/MovieList":"8UDl3","../components/MovieListMore":"3ZUar"}],"gaVgo":[function(require,module,exports) {
+},{"../core/heropy":"57bZf","../components/Headline":"gaVgo","../components/Search":"jqPPz","../components/MovieList":"8UDl3","../components/MovieListMore":"3ZUar","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gaVgo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("../core/heropy");
@@ -820,7 +820,7 @@ class Search extends (0, _heropy.Component) {
 }
 exports.default = Search;
 
-},{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../store/movie":"kq1bo"}],"kq1bo":[function(require,module,exports) {
+},{"../core/heropy":"57bZf","../store/movie":"kq1bo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kq1bo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "searchMovies", ()=>searchMovies);
@@ -906,7 +906,7 @@ class MovieList extends (0, _heropy.Component) {
 }
 exports.default = MovieList;
 
-},{"../core/heropy":"57bZf","../store/movie":"kq1bo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./MovieItem":"fAzE8"}],"fAzE8":[function(require,module,exports) {
+},{"../core/heropy":"57bZf","../store/movie":"kq1bo","./MovieItem":"fAzE8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fAzE8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _heropy = require("../core/heropy");
@@ -973,10 +973,54 @@ class Movie extends (0, _heropy.Component) {
     async render() {
         await (0, _movie.getMovieDetails)(history.state.id);
         console.log((0, _movieDefault.default).state.movie);
+        const { movie } = (0, _movieDefault.default).state;
+        this.el.classList.add("container", "the-movie");
+        this.el.innerHTML = /* html */ `
+      <div
+        style="background-image: url(${movie.Poster})"
+        class="poster"></div>
+      <div class="specs">
+        <div class="title">
+          ${movie.Title}
+        </div>
+        <div class="labels">
+          <span>${movie.Released}</span>
+          &nbsp;/&nbsp;
+          <span>${movie.Runtime}</span>
+          &nbsp;/&nbsp;
+          <span>${movie.Country}</span>
+        </div>
+        <div class="plot">
+          ${movie.Plot}
+        </div>
+        <div>
+          <h3>Ratings</h3>
+          ${movie.Ratings.map((rating)=>{
+            return `<p>${rating.Source} - ${rating.Value}</p>`;
+        }).join("")}
+        </div>
+        <div>
+          <h3>Actors</h3>
+          <p>${movie.Actors}</p>
+        </div>
+        <div>
+          <h3>Director</h3>
+          <p>${movie.Director}</p>
+        </div>
+        <div>
+          <h3>Production</h3>
+          <p>${movie.Production}</p>
+        </div>
+        <div>
+          <h3>Genre</h3>
+          <p>${movie.Genre}</p>
+        </div>
+      </div>
+    `;
     }
 }
 exports.default = Movie;
 
-},{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../store/movie":"kq1bo"}]},["2ev3S","gLLPy"], "gLLPy", "parcelRequire63d4")
+},{"../core/heropy":"57bZf","../store/movie":"kq1bo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2ev3S","gLLPy"], "gLLPy", "parcelRequire63d4")
 
 //# sourceMappingURL=index.4d6bcbeb.js.map
