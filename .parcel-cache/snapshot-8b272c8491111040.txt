@@ -6,7 +6,7 @@
 101C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133620157538152792 0
 76C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\css-tree\data\patch.json133620157527911305 0
 103C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@swc\helpers\cjs\_iterable_to_array_limit_loose.cjs133620157513877299 0
-43C:\kakaoTechCampus\VanillaJS-Movie-App\dist133620172849221122 1
+43C:\kakaoTechCampus\VanillaJS-Movie-App\dist133620178272473270 1
 120C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\cjs\syntax\node\PseudoElementSelector.cjs133620157530995603 0
 72C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\svgo\lib\svgo\coa.js133620157543347528 0
 119C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-parse-selector.cjs133620157531105720 0
@@ -30,7 +30,7 @@
 68C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\stable\stable.js133620157543068753 0
 93C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\entities\lib\generated\decode-data-xml.js133620157534086817 0
 119C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one\package.json133620157477167315 0
-58C:\kakaoTechCampus\VanillaJS-Movie-App\src\routes\Movie.js133620166686346435 0
+58C:\kakaoTechCampus\VanillaJS-Movie-App\src\routes\Movie.js133620176348861637 0
 71C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\js-tokens\README.md133620157535830380 0
 91C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\svgo\plugins\cleanupEnableBackground.js133620157543518529 0
 80C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@parcel\workers\src\child.js133620157507888811 0
@@ -172,7 +172,7 @@
 77C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\cosmiconfig\dist\types.js133620157524159362 0
 72C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@swc\core\spack.d.ts133620157512203780 0
 90C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@parcel\packager-js\src\.eslintrc.json133620157484353392 0
-63C:\kakaoTechCampus\VanillaJS-Movie-App\src\components\Search.js133620157545021936 0
+63C:\kakaoTechCampus\VanillaJS-Movie-App\src\components\Search.js133620178464908388 0
 134C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function\expression.js133620157478876946 0
 106C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\dom-serializer\node_modules\entities\lib\maps\xml.json133620157533170194 0
 65C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\color-convert133620157523725095 1
@@ -2769,7 +2769,7 @@
 89C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\lib\walker133620157532506073 1
 99C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\lib\walker\create.js133620157532506073 0
 90C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@parcel\watcher-win32-x64\package.json133620157507552830 0
-62C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.af20ad6e.css133620172849175952 0
+62C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.af20ad6e.css133620176043791042 0
 109C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@swc\helpers\cjs\_create_for_of_iterator_helper_loose.cjs133620157513663073 0
 98C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\lib\walker\index.js133620157532506073 0
 97C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\lib\utils\clone.js133620157532475115 0
@@ -3688,7 +3688,7 @@
 95C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\cosmiconfig\dist\getPropertyByPath.d.ts.map133620157524120794 0
 100C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@swc\helpers\cjs\_initializer_warning_helper.cjs133620157513877299 0
 89C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\cosmiconfig\dist\getPropertyByPath.js133620157524120794 0
-61C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.4d6bcbeb.js133620169265314863 0
+61C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.4d6bcbeb.js133620178272425939 0
 93C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\cosmiconfig\dist\getPropertyByPath.js.map133620157524120794 0
 80C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\@swc\core\bindings\README.md133620157512143592 0
 88C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\caniuse-lite\data\features\beacon.js133620157517156510 0
@@ -5897,6 +5897,6 @@
 61C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\.bin\svgo133620157473413280 0
 65C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\.bin\svgo.ps1133620157473413280 0
 79C:\kakaoTechCampus\VanillaJS-Movie-App\node_modules\.bin\update-browserslist-db133620157473497959 0
-65C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.4d6bcbeb.js.map133620169265405304 0
-54C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.html133620169265582632 0
-66C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.af20ad6e.css.map133620172849221122 0
+66C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.af20ad6e.css.map133620176043823795 0
+54C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.html133620176044308105 0
+65C:\kakaoTechCampus\VanillaJS-Movie-App\dist\index.4d6bcbeb.js.map133620178272473270 0
