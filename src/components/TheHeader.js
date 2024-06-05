@@ -21,6 +21,9 @@ export default class TheHeader extends Component {
         ]
       }
     })
+    window.addEventListener('popstate', () => {
+      this.render()
+    })
   }
 
   render() {
@@ -33,9 +36,14 @@ export default class TheHeader extends Component {
       <nav>
         <ul>
           ${this.state.menus.map(menu => {
+            const href = menu.href.split('?')[0]
+            const hash = location.hash.split('?')[0]
+            const isActive = href === hash
             return /* html */ `
               <li>
-                <a href="${menu.href}">
+                <a
+                  class="${isActive ? 'active' : ''}" 
+                  href="${menu.href}">
                   ${menu.name}
                 </a>
               </li>
@@ -44,7 +52,7 @@ export default class TheHeader extends Component {
         </ul>
       </nav>
       <a href="#/about" class="user">
-        <img src="https://heropy.blos/css/images/logo.png" alt="User">
+        <img src="https://heropy.blog/css/images/logo.png" alt="User">
       </a>
     `
   }
