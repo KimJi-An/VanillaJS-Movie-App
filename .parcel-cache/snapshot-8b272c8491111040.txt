@@ -1,4 +1,4 @@
-5905
+5906
 98C:\kakao_tech\VanillaJS-Movie-App\node_modules\@babel\helper-validator-identifier\lib\index.js.map133613847212261100 0
 59C:\kakao_tech\VanillaJS-Movie-App\node_modules\browserslist133613847242270950 1
 85C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\core\lib\public\BundleGraph.js133613847213352827 0
@@ -18,9 +18,9 @@
 87C:\kakao_tech\VanillaJS-Movie-App\node_modules\@swc\helpers\_\_ts_decorate\package.json133613847240268447 0
 62C:\kakao_tech\VanillaJS-Movie-App\node_modules\srcset\index.js133613847256770212 0
 79C:\kakao_tech\VanillaJS-Movie-App\node_modules\@swc\helpers\src\_instanceof.mjs133613847241434603 0
-60C:\kakao_tech\VanillaJS-Movie-App\dist\index.4d6bcbeb.js.map133621481308519316 0
+60C:\kakao_tech\VanillaJS-Movie-App\dist\index.4d6bcbeb.js.map133621500702476783 0
 73C:\kakao_tech\VanillaJS-Movie-App\node_modules\utility-types\CHANGELOG.md133613847257609679 0
-56C:\kakao_tech\VanillaJS-Movie-App\dist\index.4d6bcbeb.js133621481308519316 0
+56C:\kakao_tech\VanillaJS-Movie-App\dist\index.4d6bcbeb.js133621500702426354 0
 122C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\index.js133613847216323583 0
 98C:\kakao_tech\VanillaJS-Movie-App\node_modules\csso\node_modules\mdn-data\css\syntaxes.schema.json133613847250936892 0
 81C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\package-manager\src\Npm.js133613847217932901 0
@@ -39,7 +39,7 @@
 105C:\kakao_tech\VanillaJS-Movie-App\node_modules\csso\node_modules\css-tree\lib\syntax\node\TypeSelector.js133613847250651466 0
 110C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133613847214135273 0
 72C:\kakao_tech\VanillaJS-Movie-App\node_modules\type-fest\ts41\index.d.ts133613847257609679 0
-38C:\kakao_tech\VanillaJS-Movie-App\dist133621486722500905 1
+38C:\kakao_tech\VanillaJS-Movie-App\dist133621501095806638 1
 84C:\kakao_tech\VanillaJS-Movie-App\node_modules\posthtml\node_modules\posthtml-parser133613847256102034 1
 75C:\kakao_tech\VanillaJS-Movie-App\node_modules\type-fest\source\except.d.ts133613847257436246 0
 69C:\kakao_tech\VanillaJS-Movie-App\node_modules\js-tokens\package.json133613847252936455 0
@@ -74,7 +74,7 @@
 68C:\kakao_tech\VanillaJS-Movie-App\node_modules\lmdb\rollup.config.js133613847254609680 0
 86C:\kakao_tech\VanillaJS-Movie-App\node_modules\caniuse-lite\data\features\audio-api.js133613847242410944 0
 102C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax133613847216791594 1
-46C:\kakao_tech\VanillaJS-Movie-App\src\main.css133621486722133184 0
+46C:\kakao_tech\VanillaJS-Movie-App\src\main.css133621501896541660 0
 77C:\kakao_tech\VanillaJS-Movie-App\node_modules\chrome-trace-event\LICENSE.txt133613847246436986 0
 78C:\kakao_tech\VanillaJS-Movie-App\node_modules\caniuse-lite\data\regions\BS.js133613847244936139 0
 67C:\kakao_tech\VanillaJS-Movie-App\node_modules\type-fest\index.d.ts133613847257436246 0
@@ -92,7 +92,7 @@
 78C:\kakao_tech\VanillaJS-Movie-App\node_modules\caniuse-lite\data\regions\PS.js133613847245586950 0
 88C:\kakao_tech\VanillaJS-Movie-App\node_modules\caniuse-lite\data\features\flexbox-gap.js133613847243437876 0
 83C:\kakao_tech\VanillaJS-Movie-App\node_modules\css-tree\cjs\syntax\function\var.cjs133613847248101769 0
-44C:\kakao_tech\VanillaJS-Movie-App\src\routes133621474802665884 1
+44C:\kakao_tech\VanillaJS-Movie-App\src\routes133621499991675449 1
 87C:\kakao_tech\VanillaJS-Movie-App\node_modules\lightningcss-win32-x64-msvc\package.json133613847253854384 0
 108C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js133613847235103175 0
 46C:\kakao_tech\VanillaJS-Movie-App\package.json133613847257769483 0
@@ -122,7 +122,7 @@
 118C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertPathData.js133613847215854842 0
 45C:\kakao_tech\VanillaJS-Movie-App\src\main.js133613847257769483 0
 63C:\kakao_tech\VanillaJS-Movie-App\node_modules\stable\stable.js133613847256770212 0
-53C:\kakao_tech\VanillaJS-Movie-App\src\routes\index.js133621485144551956 0
+53C:\kakao_tech\VanillaJS-Movie-App\src\routes\index.js133621499851077267 0
 75C:\kakao_tech\VanillaJS-Movie-App\node_modules\posthtml-parser\package.json133613847255934224 0
 74C:\kakao_tech\VanillaJS-Movie-App\node_modules\to-regex-range\package.json133613847257268251 0
 82C:\kakao_tech\VanillaJS-Movie-App\node_modules\lmdb\dependencies\lz4\lib\lz4file.h133613847254439623 0
@@ -5430,6 +5430,7 @@
 117C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeComments.js133613847215854842 0
 123C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeElementsByAttr.js133613847215854842 0
 119C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyAttrs.js133613847215854842 0
+56C:\kakao_tech\VanillaJS-Movie-App\src\routes\NotFound.js133621500734901626 0
 118C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyText.js133613847215854842 0
 120C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeHiddenElems.js133613847215854842 0
 117C:\kakao_tech\VanillaJS-Movie-App\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeMetadata.js133613847215854842 0
@@ -5902,5 +5903,5 @@
 74C:\kakao_tech\VanillaJS-Movie-App\node_modules\.bin\update-browserslist-db133613847212261100 0
 78C:\kakao_tech\VanillaJS-Movie-App\node_modules\.bin\update-browserslist-db.cmd133613847212261100 0
 53C:\kakao_tech\VanillaJS-Movie-App\src\routes\About.js133621484868783166 0
-57C:\kakao_tech\VanillaJS-Movie-App\dist\index.af20ad6e.css133621486722476639 0
-61C:\kakao_tech\VanillaJS-Movie-App\dist\index.af20ad6e.css.map133621486722490453 0
+57C:\kakao_tech\VanillaJS-Movie-App\dist\index.af20ad6e.css133621501095762794 0
+61C:\kakao_tech\VanillaJS-Movie-App\dist\index.af20ad6e.css.map133621501095797986 0
